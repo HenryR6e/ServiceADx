@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ServiceAD</string>
+    <string name="action_settings">Settings</string>
+    <string name="Name">Name:</string>
+
+    <string name="Location">Location:</string>
+    <string name="Exact">Exact Location:</string>
+    <string name="services">Services:</string>
+
+</resources>

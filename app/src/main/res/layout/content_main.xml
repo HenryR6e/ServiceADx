@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rae.sercicead.servicead.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/viewone">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+
+            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/r1"
+            android:layout_margin="10dp"
+            android:background="@drawable/hotel"
+            android:onClick="hotels">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id = "@+id/r2"
+            android:background="@drawable/club"
+            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/r1"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:onClick="clubs">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id = "@+id/r3"
+            android:background="#ffaa22"
+            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/r2"
+            android:padding="10dp"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                    android:id="@+id/box1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentTop="true"
+                    android:background="#ffffff">
+
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#ffffff"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                </RelativeLayout>
+            </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
